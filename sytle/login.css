@@ -1,0 +1,68 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.hijo {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+    float: left;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.hijo form {
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    #im {
+        display: none;
+    }
+
+    #contenido {
+        width: 100%;
+    }
+
+    #contenido form {
+        width: 95%;
+        padding: 0 1em;
+    }
+
+}
+
+
+
+.form-label {
+    color: black;
+
+}
+
+.form-check-label {
+    color: black;
+}
+
+.s {
+    text-decoration: none;
+    color: black;
+}
